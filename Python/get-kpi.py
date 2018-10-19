@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# This retrieves key performance metrics for a given router node.
+
 # Import modules
 import requests, json
 
@@ -15,7 +17,7 @@ url = "https://<your-128T-host>/api/v1/router/<router-name>/node/<node-name>"
 # Request headers
 requestHeaders = {'Authorization': 'Bearer {}'.format(token)}
 
-# Create stat request
+# Create node kpi request
 response = requests.get(
   url,
   headers = requestHeaders,
