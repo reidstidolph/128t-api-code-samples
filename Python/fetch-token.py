@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# This fetches an authentication token from a 128T host
+
 # Import modules
 import requests, json
 

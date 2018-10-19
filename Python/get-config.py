@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# This retrieves running configuration from a 128T host
+
 # Import modules
 import requests, json
 
