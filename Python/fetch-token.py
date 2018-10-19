@@ -15,12 +15,13 @@ payload = {
   'username': '<Username>',
   'password': '<Password>'
 }
+requestHeaders = {'content-type': 'application/json'}
 
 # Create token request
 response = requests.post(
   url,
   data=json.dumps(payload),
-  headers = {'content-type': 'application/json'},
+  headers = requestHeaders,
   # Do not verify that SSL certificate provided by 128T host is trusted
   # DO NOT USE IN PRODUCTION APP!
   # Instead it is reccomended to use a trusted cert on your 128T, and omit this line
