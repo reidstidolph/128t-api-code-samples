@@ -8,7 +8,6 @@ import requests, json
 # Instead it is reccomended to use a trusted cert on your 128T, and omit this line
 requests.packages.urllib3.disable_warnings()
 
-# Retrieving Authentication Token
 # URL for retrieving token. Update with your host address or FQDN
 url = "https://<your-128T-host>/api/v1/login"
 payload = {
