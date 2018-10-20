@@ -13,7 +13,7 @@ requests.packages.urllib3.disable_warnings()
 # Valid auth token string
 token = "<Your_Token_String>"
 # URL for retrieving config. Update with your host address or FQDN
-url = "https://<your-128T-host>/api/v1/router/<router-name>/node/<node-name>"
+url = "https://<128T-HOST>/api/v1/router/<ROUTER-NAME>/node/<NODE-NAME>"
 # Request headers
 requestHeaders = {'Authorization': 'Bearer {}'.format(token)}
 

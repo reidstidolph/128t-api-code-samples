@@ -11,7 +11,7 @@ import requests, json
 requests.packages.urllib3.disable_warnings()
 
 # URL for retrieving token. Update with your host address or FQDN
-url = "https://<your-128T-host>/api/v1/login"
+url = "https://<128T-HOST>/api/v1/login"
 # Request payload
 requestPayload = {
   'username': '<Username>',
