@@ -5,7 +5,7 @@
 # Import modules
 import requests, json
 
-# Disable warning thrown when requests are made to 128T using  self-signed cert.
+# Disable warning thrown when requests are made to 128T using self-signed cert.
 # DO NOT USE IN PRODUCTION APP!
 # Instead it is reccomended to use a trusted cert on your 128T, and omit this.
 requests.packages.urllib3.disable_warnings()
