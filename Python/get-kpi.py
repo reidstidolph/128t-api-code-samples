@@ -17,7 +17,7 @@ url = "https://<128T-HOST>/api/v1/router/<ROUTER-NAME>/node/<NODE-NAME>"
 # Request headers
 requestHeaders = {'Authorization': 'Bearer {}'.format(token)}
 
-# Try reqeust to 128T host
+# Try request to 128T host
 try:
   response = requests.get(
     url,
